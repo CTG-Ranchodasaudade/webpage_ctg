@@ -1,0 +1,84 @@
+<footer id="footer-default">
+  <section id="footer-default__main">
+    <section id="footer-default__main-left">
+      <img src="../../../assets/img/Home/logo_ranchodasaudade.png" alt="Logo marca do CTG Rancho da Saudade" srcset="">
+    </section>
+    <section id="footer-default__main-right">
+      <section id="footer-default__main-right__menu">
+        <nav>
+          <ul id="menu-bar__itens">
+            <li class="menu-bar__itens-menu"
+            [routerLink]="['/']"
+            [routerLinkActive]="['actived']"
+            [routerLinkActiveOptions]="{exact: true}"
+            >
+              <a  >HOME
+              </a>
+            </li>
+            <li class="menu-bar__itens-menu"
+              [routerLink]="['/about']"
+              [routerLinkActive]="['actived']"
+              [routerLinkActiveOptions]="{exact: true}"
+              >
+              <a >ABOUT</a>
+            </li>
+            <li class="menu-bar__itens-menu"
+              [routerLink]="['/contato']"
+              [routerLinkActive]="['actived']"
+              [routerLinkActiveOptions]="{exact: true}"
+              >
+              <a >CONTATO</a>
+            </li>
+            <li class="menu-bar__itens-menu">
+              <div id="menu-bar__itens-item"
+              [routerLink]="['/artistic','/campeiro','/cultural']"
+              [routerLinkActive]="['actived']"
+              [routerLinkActiveOptions]="{exact: true}">
+                  DEPARTAMENTS
+              </div>
+              <ul id="menu-bar__itens-container">
+                <li class="menu-bar__itens-submenu"
+                  [routerLink]="['/artistic']"
+                  [routerLinkActive]="['actived']"
+                  [routerLinkActiveOptions]="{exact: true}"
+                  >
+                  <a >ARTISTIC</a></li>
+                <li class="menu-bar__itens-submenu"
+                  [routerLink]="['/campeira']"
+                  [routerLinkActive]="['actived']"
+                  [routerLinkActiveOptions]="{exact: true}"
+                  >
+                  <a >CAMPEIRO</a></li>
+                <li class="menu-bar__itens-submenu"
+                  [routerLink]="['/cultural']"
+                  [routerLinkActive]="['actived']"
+                  [routerLinkActiveOptions]="{exact: true}"
+                  >
+                  <a >CULTURAL</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+      </section>
+      <section id="footer-default__main-right__links">
+          <a class="footer-default__home__links-redes" href="">
+            <img src="../../../assets/img/Home/facebook_icon.png" alt="" srcset="">
+            <p>@ranchodasaudade</p>
+          </a>
+          <a class="footer-default__home__links-redes" href="">
+            <img src="../../../assets/img/Home/instagram-icon.png" alt="" srcset="">
+            <p>ctgranchodasaudade</p>
+          </a>
+          <a class="footer-default__home__links-redes" href="">
+            <img src="../../../assets/img/Home/youtube_icon.png" alt="" srcset="">
+            <p>CTG - Rancho da Saudade - Oficial</p>
+          </a>
+      </section>
+    </section>
+  </section>
+  <section id="footer-default__information">
+    <p>Site desenvolvido por <strong>GDCAW</strong></p>
+    <p><strong>&copy; Todos direitos reservados 2022</strong></p>
+  </section>
+</footer>

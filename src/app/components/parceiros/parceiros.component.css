@@ -1,0 +1,36 @@
+
+#parceiros-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #76b897;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 2em;
+  border-top: 6px solid #ff7f50;
+  border-bottom: 6px solid #ff7f50;
+}
+
+h3 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+}
+
+.parceiros-main__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+
+}
+
+img {
+  display: block;
+  width: 16em;
+  height: 10em;
+}

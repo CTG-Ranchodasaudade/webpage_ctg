@@ -1,0 +1,74 @@
+
+#Home__main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(118,184,151);
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
+  justify-content: space-between;
+}
+
+#home__logo{
+  display: flex;
+  align-items: center;
+}
+
+#home__logo > img{
+  display: flex;
+  width: 6em;
+  height: 6em;
+  padding-left: 1em;
+}
+
+#home__slogan {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding-left: 0.8em;
+  align-items: center;
+}
+
+#home__slogan > h1 {
+  display: flex;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding-top: 0.1em;
+  color: rgb(212, 210, 210);
+}
+
+#home__slogan > h2 {
+  font-size: 1.5em;
+  margin: 0.3em 0 0 0;
+  color: #fff;
+}
+
+#home__links{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.5em;
+
+  justify-content: center;
+}
+
+.home__links-redes {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 0 0.5em 0 0;
+  align-items: center;
+  border-right: 0.3em solid rgb(68, 68, 68);
+}
+
+.home__links-redes > img {
+  margin: 0;
+}
+
+.home__links-redes > p {
+  display: flex;
+  color: black;
+  margin: 0;
+}

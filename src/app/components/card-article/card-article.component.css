@@ -1,0 +1,23 @@
+
+.card-article__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  border-radius: 15% 2%;
+
+  background-color: coral;
+}
+
+.card-article__container > img {
+  border-radius: 15% 2%;
+}
+
+.card-article__container > h2 {
+  text-align: center;
+}
+
+.card-article__container > p{
+  text-align: justify;
+  padding: 0 1em;
+}

@@ -1,0 +1,29 @@
+
+.photo-gallery {
+  display: flex;
+  width: 16em;
+  height: 16em;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.407);
+}
+
+.photo-gallery__img {
+  display: flex;
+  width: 15em;
+  height: 15em;
+
+}
+
+.photo-gallery__img:hover {
+  width: 25em;
+  height: 25em;
+  margin: 0;
+  position: absolute;
+  top: auto;
+  border-radius: 1em;
+  border: 3px solid black;
+  box-shadow: 1px 2px 4px #ff7f50;
+  transition: all 1s ease-in-out;
+}

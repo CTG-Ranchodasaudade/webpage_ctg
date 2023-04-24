@@ -1,0 +1,65 @@
+
+#localizacao-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+  background-color: #76b897;
+  border-top: 3px solid #ff7f50;
+  border-bottom: 3px solid #ff7f50;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+#localizacao-main__info {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+}
+
+iframe {
+  border-radius: 6px;
+  border: 2px solid #ff7f50;
+  box-shadow: 2px 2px 4px black;
+}
+
+#localizacao-main__info-tabua {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../assets/img/Contato/tabua_localizacao.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+#localizacao-main__info-tabua__text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-right: 1em;
+}
+
+#localizacao-main__info-tabua__text > h4 {
+  margin: 0;
+  font-size: 2em;
+  padding: 1em 0;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+#localizacao-main__info-tabua__text > p {
+  margin: 0;
+  font-size: 1.3em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #fff;
+  font-weight: 600;
+}

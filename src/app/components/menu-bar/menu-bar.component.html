@@ -1,0 +1,63 @@
+<section track-scroll>
+  <nav id="menu-bar" [ngStyle]="{'top':posicaoMenuSuspenso, 'position':posicaoMenuFixo}" >
+    <div id="menu-bar__icone-hamburgue" (click)="abreMenuHamburgue()">
+      <img id="menu-bar__imagem"
+        src="{{imagemMenu}}" alt="Icone hamburgue do menu" srcset="">
+    </div>
+    <ul id="menu-bar__itens" [ngStyle]="{'display':openMenu}">
+      <li class="menu-bar__itens-menu"
+      [routerLink]="['/']"
+      [routerLinkActive]="['actived']"
+      [routerLinkActiveOptions]="{exact: true}"
+      (click)="fechaSubmenu()">
+        <a  >HOME
+        </a>
+      </li>
+      <li class="menu-bar__itens-menu"
+        [routerLink]="['/about']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="fechaSubmenu()">
+        <a >ABOUT</a>
+      </li>
+      <li class="menu-bar__itens-menu"
+        [routerLink]="['/contato']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="fechaSubmenu()">
+        <a >CONTATO</a>
+      </li>
+      <li class="menu-bar__itens-menu">
+        <div id="menu-bar__itens-item" (click)="abreEFechaSubMenu()"
+        [routerLink]="['/artistic','/campeiro','/cultural']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}">
+            DEPARTAMENTS
+            <div id="seta" [ngStyle]="{'transform':setaLateral}"></div>
+        </div>
+        <ul id="menu-bar__itens-container" [ngStyle]="{'display':openSubmenu,'flex-direction':direcaoSubmenu}">
+          <li class="menu-bar__itens-submenu"
+            [routerLink]="['/artistic']"
+            [routerLinkActive]="['activedSubMenu']"
+            [routerLinkActiveOptions]="{exact: true}"
+            (click)="fechaSubmenu()">
+            <a >ARTISTIC</a></li>
+          <li class="menu-bar__itens-submenu"
+            [routerLink]="['/campeira']"
+            [routerLinkActive]="['activedSubMenu']"
+            [routerLinkActiveOptions]="{exact: true}"
+            (click)="fechaSubmenu()">
+            <a >CAMPEIRO</a></li>
+          <li class="menu-bar__itens-submenu"
+            [routerLink]="['/cultural']"
+            [routerLinkActive]="['activedSubMenu']"
+            [routerLinkActiveOptions]="{exact: true}"
+            (click)="fechaSubmenu()">
+            <a >CULTURAL</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+</section>
+

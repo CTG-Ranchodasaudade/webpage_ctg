@@ -1,0 +1,114 @@
+.actived{
+  border-bottom: 4px solid coral;
+}
+
+#footer-default {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-image: url('../../../assets/img/Home/sede_fundo_esverdeado.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer-default__main{
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0;
+}
+
+#footer-default__main-left {
+  display: flex;
+  width: 24%;
+  justify-content: center;
+  align-items:center ;
+}
+
+#footer-default__main-left > img {
+  display: flex;
+  width: 60%;
+  height: 60%;
+}
+
+#footer-default__main-right{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  border-radius: 2em;
+  padding-top: 2em;
+  opacity: 0.7;
+
+  background-color: #76b897;
+}
+
+#footer-default__main-right__menu{
+  display: flex;
+  width: 50%;
+}
+
+#menu-bar__itens {
+  list-style: none;
+}
+
+.menu-bar__itens-menu{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  cursor: pointer;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+#menu-bar__itens-item{
+  padding-bottom: 1em;
+}
+
+#menu-bar__itens-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.menu-bar__itens-submenu {
+  display: flex;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+#footer-default__main-right__links {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.footer-default__home__links-redes {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2em;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-default__home__links-redes > img{
+  display: block;
+  width: 2em;
+  height: 2em;
+  padding-right: 1em;
+}
+
+.footer-default__home__links-redes > p {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer-default__information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+#footer-default__information > p {
+  margin: 0;
+}

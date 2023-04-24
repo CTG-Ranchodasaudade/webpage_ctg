@@ -1,0 +1,59 @@
+#main-campeira{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 98.5vw;
+}
+
+#main-campeira > h1 {
+  width: 100%;
+  text-align: center;
+  padding: 2em 0;
+  margin: 0;
+
+  background-color: #cf8e55;
+}
+
+.main-campeira-invernadas {
+  display: flex;
+  flex-direction: column;
+  background-color: #cf8e55;
+  width: 100%;
+  height: auto;
+}
+
+h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+
+  background-color: #fff;
+}
+
+p {
+  display: block;
+  padding: 0 2em;
+  text-align: justify;
+  text-indent: 1em;
+  color: #fff;
+}
+
+.main-campeira__campeira-gallery {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #76b897;
+}
+
+.main-campeira__campeira-gallery__photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(16em, 1fr));
+  margin-top: 2em;
+  grid-column-gap: auto;
+  grid-row-gap: 2em;
+  width: 90%;
+  justify-items: center;
+  padding: 1em 0;
+}

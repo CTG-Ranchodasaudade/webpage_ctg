@@ -1,0 +1,11 @@
+
+.awards-container{
+  display: flex;
+  width: 10em;
+
+}
+
+.awards-container > img {
+  display: flex;
+  width: 10em;
+}

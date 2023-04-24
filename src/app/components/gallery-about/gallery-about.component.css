@@ -1,0 +1,63 @@
+
+#gallery-About__first {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding-bottom: 3em;
+
+  background-image: url('../../../assets/img/Home/imagem_CTG.jpg');
+  background-position: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery-About__first > h2 {
+  width: 100%;
+  text-align: center;
+  background-color: #76b897;
+  margin: 0;
+  padding: 1.5em 0;
+}
+
+#gallery-About__patronos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(16em, 1fr));
+  margin-top: 2em;
+  grid-column-gap: auto;
+  grid-row-gap: 2em;
+  width: 90%;
+  justify-items: center;
+  border-radius: 2em;
+  background-color: #51515167;
+  padding: 1em 0;
+}
+
+#gallery-About__photos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(16em, 1fr));
+  margin-top: 2em;
+  grid-column-gap: auto;
+  grid-row-gap: 2em;
+  width: 80%;
+  justify-items: center;
+  border-radius: 2em;
+  background-color: #51515167;
+  padding: 1em 0;
+}
+
+.gallery-About__photos{
+  display: flex;
+
+  width: 100px;
+  height: 80px;
+
+  background-color: aqua;
+}
+
+.gallery-About__photos-card {
+  width: 15em;
+}
+
